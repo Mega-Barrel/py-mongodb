@@ -6,7 +6,6 @@ from pprint import pprint
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from pymongo.database import Database
 from pymongo.collection import Collection
 from pymongo.errors import ConnectionFailure, PyMongoError  # Updated import
 from dotenv import load_dotenv
